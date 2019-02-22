@@ -1,0 +1,245 @@
+/* POPUP */
+.popup__header {
+  text-align: center;
+  color: goldenrod;
+}
+.popup__header-1{
+  color: rgb(4, 37, 4);
+}
+.popup-food__header-1 {
+  color: rgb(4, 37, 4);
+}
+
+.popup {
+  z-index: 3000;
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all .4s; }
+  .popup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background-color: rgb(4, 37, 4);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    display: table;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: all .3s; }
+  .popup__left {
+    width: 33.3333333%;
+    display: table-cell; }
+  .popup__middle {
+      width: 33.3333333%;
+      display: table-cell; }
+  .popup__right {
+    width:33.3333333%;
+    display: table-cell;
+  
+  }
+  .popup__img {
+    width: 100%;
+    display: block; }
+  .popup:target {
+    visibility: visible;
+    opacity: 1; }
+  .popup:target .popup__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
+  .popup__close:link, .popup__close:visited {
+    text-decoration: none;
+    color: #55c57a; 
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    display: inline-block;
+    line-height: 1; }
+  .popup__close:hover {
+    color: goldenrod; }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+  height: 50rem; }
+  .book__form {
+    width: 50%;
+    padding: 6rem; }
+
+
+
+
+/* POPUP - FOOD */
+.popup-food__header {
+  text-align: center;
+  color: goldenrod;
+}
+.popup-food {
+  z-index: 3000;
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all .4s; }
+  .popup-food__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background-color: rgb(4, 37, 4);
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    display: table;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: all .3s; }
+  .popup-food__left {
+    width: 33.3333333%;
+    display: table-cell; }
+  .popup-food__middle {
+      width: 33.3333333%;
+      display: table-cell; }
+  .popup-food__right {
+    width:33.3333333%;
+    display: table-cell;
+  
+  }
+  .popup-food__img {
+    width: 100%;
+    display: block; }
+  .popup-food:target {
+    visibility: visible;
+    opacity: 1; }
+  .popup-food:target .popup-food__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
+  .popup-food__close:link, .popup-food__close:visited {
+    text-decoration: none;
+    color: #55c57a;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    display: inline-block;
+    line-height: 1; }
+  .popup-food__close:hover {
+    color:goldenrod }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+  height: 50rem; }
+  .book__form {
+    width: 50%;
+    padding: 6rem; }
+
+
+
+/* POPUP- LANGUAGE  */
+
+.popup-language__header {
+      text-align: center;
+      color: goldenrod;
+  }
+.popup-language {
+      z-index: 3000;
+      opacity: 0;
+      visibility: hidden;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      transition: all .4s; }
+      .popup-language__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 75%;
+        background-color: rgb(4, 37, 4);
+        box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+        display: table;
+        overflow: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.25);
+        transition: all .3s; }
+      .popup-language__left {
+        width: 33.3333333%;
+        display: table-cell; }
+      .popup-language__middle {
+          width: 33.3333333%;
+          display: table-cell; }
+      .popup-language__right {
+        width:33.3333333%;
+        display: table-cell;
+      
+      }
+      .popup-language__img {
+        width: 100%;
+        display: block; }
+      .popup-language:target {
+        visibility: visible;
+        opacity: 1; }
+      .popup-language:target .popup-language__content {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1); }
+      .popup-language__close:link, .popup-language__close:visited {
+        text-decoration: none;
+        color: #777;
+        position: absolute;
+        top: 2.5rem;
+        right: 2.5rem;
+        font-size: 3rem;
+        display: inline-block;
+        line-height: 1; }
+      .popup-language__close:hover {
+        color: #55c57a; }
+    
+    .section-book {
+      padding: 15rem 0;
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+    
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+      background-size: cover;
+      border-radius: 3px;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+      height: 50rem; }
+      .book__form {
+        width: 50%;
+        padding: 6rem; }
+
+.popup-language__header-1{
+  color: rgb(4, 37, 4);
+      
+}

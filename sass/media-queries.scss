@@ -1,0 +1,109 @@
+@media (max-width: 615px) {
+  .navigation-wrapper {
+      flex-direction: column;
+      height: 100%;
+  }
+
+.about-header__heading-wrapper {
+  font-size: 12px;
+  width: 140px;
+  padding: 6px;
+}
+
+.explore-header__heading-wrapper {
+  font-size: 12px;
+  width: 140px;
+  padding: 6px;
+}
+
+
+.links-wrapper {
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.links-wrapper > .nav-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+
+.footer {
+    height: 100%;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    flex-direction: column;
+}
+
+.skewed-header > .header-bg {
+    background-size: 550px;
+}
+
+.page-container {
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: rgb(15, 184, 29);
+}
+
+.content-wrapper > #city {
+    margin: 0px 0px 25px 0px !important;
+    width: 100% !important;
+}
+
+.img-wrapper > #pic {
+    margin: 0px 0px 25px 0px !important;
+    width: 100% !important;
+}
+
+.square {
+    grid-template-columns: 1fr !important;
+}
+
+.square > .square-text-wrapper {
+    order: 1;
+}
+
+.square > .img-wrapper {
+    order: 2;
+}
+
+.contact-grid-wrapper {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.company-metadata-sidebar-wrapper{
+    font-size: .8em;
+}
+
+.form input {
+    padding: 1.3rem 0rem;
+}
+
+.form textarea {
+    padding: 1.5rem 0rem;
+}
+.social-icons {
+    font-size: 1.2em;
+    margin-left: 20rem;
+   
+}
+.twitter-logo{
+    margin-left: 30px;
+  
+}
+  
+.facebook-logo{
+
+    margin-left: 30px;
+  
+  }
+}

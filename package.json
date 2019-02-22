@@ -1,0 +1,14 @@
+{
+  "name": "exploring__sierra-leone",
+  "version": "1.0.0",
+  "description": "infomation page for sierra leone",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Bojurie Rogers-Wright <kingscultures@gmail.com> (http://www.Codingafrica.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

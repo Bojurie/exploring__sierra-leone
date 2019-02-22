@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(4, 37, 4);
+}
+
+
+.explore-header {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  background-color: rgb(4, 37, 4);
+}
+
+.header__bg {
+  background-image: url('../img/salone.png');
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  filter: brightness(50%);
+}
+
+.explore-header__wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.explore-header__skewed-content {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore-header__heading-wrapper {
+  background-image: linear-gradient(to bottom right, green, blue);
+  color: white;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  width: 170px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* ROW */
+
+div.row {
+  margin: 6rem;
+  padding-right: 5rem;
+}
+.row {
+  max-width: 80rem;
+  margin: 0 auto; }
+    @media (max-width: 56.25em) {
+.row:not(:last-child) {
+  margin-bottom: 6rem; } }
+  @media (max-width: 56.25em) {
+.row {
+  max-width: 50rem; } }
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+.row [class^="col-"] {
+    float: left; }
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem; }
+      @media (max-width: 56.25em) {
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 0;
+  margin-bottom: 6rem; } }
+
+@media (max-width: 56.25em) {
+.row [class^="col-"] {
+        width: 100% !important; } }
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2); }
+.row .col-1-of-3 {
+  width: calc((100% - 2 * 6rem) / 3); }
+.row .col-1-of-4 {
+  width: calc((100% - 3 * 6rem) / 4); }
+.row .col-2-of-3 {
+  width: calc( 2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+.row .col-2-of-4 {
+  width: calc( ((100% - 3 * 6rem) / 4) * 2 + 6rem); }
+.row .col-3-of-4 {
+  width: calc( ((100% - 3 * 6rem) / 4) * 3 + (2 * 6rem)); }
+
